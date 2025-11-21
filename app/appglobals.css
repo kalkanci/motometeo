@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background: #0a0a0a;
+  color: #fff;
+}
+
+body {
+  overflow: hidden; /* Kaydırmayı engelle, app hissi ver */
+}
+
+.maplibregl-ctrl-logo,
+.maplibregl-ctrl-attrib {
+  display: none !important; /* Temiz görünüm için logoları gizle (Lisans uyarısına dikkat) */
+}
